@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Billabong';
+    src: url('billabong.otf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fafafa;
+}
+
+#central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#textoLogin {
+    font-family: 'Billabong', cursive, 'Pacifico', 'Lobster', sans-serif;
+    font-size: 4rem;
+    color: #262626;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    letter-spacing: -0.01em;
+}
+
+.textoi {
+  letter-spacing: -0.01em;
+  color: #262626;
+  font-family: 'Billabong', cursive, 'Pacifico', 'Lobster', sans-serif;
+}
+
+.espaco {
+    flex: 0.5;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+}
+
+#boxFundo {
+    background-color: #ffffff;
+    width: 22rem;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    gap: 0.875rem;
+}
+
+#boxFundo input {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 0.875rem;
+    border: 1px solid #dbdbdb;
+    border-radius: 0.25rem;
+    background-color: #fafafa;
+}
+
+#boxFundo input:focus {
+    outline: none;
+    border-color: #a0a0a0;
+    background-color: #ffffff;
+}
+
+#boxFundo button {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 0.625rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    font-size: 0.875rem;
+    cursor: pointer;
+    transition: background 0.2s;
+    margin-top: 0.25rem;
+    width: 100%;
+}
+
+#boxFundo button:hover {
+    background-color: #1877f2;
+}
+
+.links {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.links a {
+    color: #00376b;
+    font-size: 0.75rem;
+}
+
+.espaco {
+    flex: 0.5;
+}
+
+#cabecalho {
+  display: flex;
+  margin: 0;
+  position: fixed;
+  background-color: #fafafa;
+  width: 100%;
+  height: 3.5rem;
+  z-index: 2;
+  justify-content: space-between;
+}
+
+#mais {
+  margin-top: 0.8rem;
+  margin-left: 0.9rem;
+  font-size: 2rem;
+}
+
+#texto2 {
+  margin-top: 0.8rem;
+  font-size: 2rem;
+}
+
+#sino {
+  margin-top: 0.8rem;
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+
+#fundo {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  background-color: #fafafa;
+}
+
+#post {
+  width: 100%;
+  max-width: 28rem;
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.icones {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 0;
+}
+
+.nome-usuario {
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #262626;
+}
+
+.btn-seguir {
+  background: none;
+  border: none;
+  color: #0095f6;
+  font-weight: 600;
+  font-size: 0.75rem;
+  cursor: pointer;
+}
+
+.btn-seguir:hover {
+  color: #00376b;
+}
+
+.postagem {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 0;
+  display: block;
+}
+
+.post-acoes {
+  display: flex;
+  gap: 1rem;
+  padding: 0.75rem;
+}
+
+.btn-acao {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #262626;
+}
+
+
+.curtidas {
+  font-weight: 600;
+  font-size: 0.875rem;
+  padding: 0 0.75rem 0.5rem 0.75rem;
+  color: #262626;
+}
+
+.legenda {
+  padding: 0 0.75rem 0.75rem 0.75rem;
+  font-size: 0.875rem;
+  color: #262626;
+}
+
+.nome-legenda {
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
